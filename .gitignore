@@ -5,3 +5,4 @@
 *.iml
 /src/main/asciidoc
 /src/main/generated
+.gradle
