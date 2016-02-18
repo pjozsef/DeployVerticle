@@ -2,11 +2,14 @@ package com.github.pjozsef.deployverticle;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
+import io.vertx.core.json.JsonObject;
 
 public class DeployVerticle extends AbstractVerticle{
     @Override
     public void start(Future<Void> startFuture) throws Exception {
-                
+
+        JsonObject deployment = config().getJsonObject("deployment");
+        deployment.stream().forEach(System.out::println);
     }
 
     @Override

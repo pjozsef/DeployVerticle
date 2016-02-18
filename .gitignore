@@ -5,4 +5,8 @@
 *.iml
 /src/main/asciidoc
 /src/main/generated
+<<<<<<< HEAD
 .gradle
+=======
+/build/
+>>>>>>> e3083486ba38ec4de81fff1058ada3d2ac8ba5df
